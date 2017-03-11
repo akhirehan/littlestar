@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+
+
+
+#menu-0 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #b8312f;
+}
+#menu-0 .mbr-navbar__section {
+  background: #b8312f;
+}
+#menu-0 .mbr-navbar__hamburger {
+  color: #28324e;
+}
+#menu-0 .mbr-brand__name a {
+  font-size: 46px;
+  font-family: 'Indie Flower', cursive;
+}
+#social-buttons2-3 .mbr-header__text {
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  font-family: 'Oxygen', sans-serif;
+}
+#form1-4 .mbr-header__text {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+}
+#form1-4 .btn {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 13px;
+}
+#contacts2-5 P {
+  font-size: 16px;
+  color: #cccccc;
+}
+#contacts2-5 STRONG {
+  font-size: 16px;
+}
+#footer1-6 P {
+  text-align: center;
+  color: #252525;
+  font-size: 18px;
+}

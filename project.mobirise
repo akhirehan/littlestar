@@ -28,10 +28,10 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#b8312f"
+              "background": "#27aae0"
             },
             ".mbr-navbar__section": {
-              "background": "#b8312f"
+              "background": "#27aae0"
             },
             ".mbr-navbar__hamburger": {
               "color": "#28324e"
@@ -48,7 +48,7 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "color": "#b8312f",
+            "color": "#27aae0",
             "hamburgerColor": "#28324e",
             "transparent": false,
             "sticky": true,
@@ -90,6 +90,20 @@
             "slides": [
               {
                 "active": true,
+                "image": "@PROJECT_PATH@/assets/images/lilstarboximage-1-2000x1333.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayOpacity": "0.1",
+                "overlayColor": "#27aae0",
+                "showTitle": false,
+                "title": "",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/lilstar101-2000x1333.jpg",
                 "contentAlign": "left",
                 "overlay": true,
@@ -171,6 +185,34 @@
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/lilstarb20-2000x1333.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayOpacity": "0.1",
+                "overlayColor": "#b8312f",
+                "showTitle": false,
+                "title": "",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/lilstarb20dlx-2000x1333.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayOpacity": "0.1",
+                "overlayColor": "#b8312f",
+                "showTitle": false,
+                "title": "",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
             "showBullets": true
@@ -214,13 +256,25 @@
                 "caption": "Model No. D-10",
                 "thumb": "@PROJECT_PATH@/assets/images/lilstard10-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/lilstard10-2000x1333.jpg",
-                "active": true
+                "active": false
               },
               {
                 "caption": "Model No. i10",
                 "thumb": "@PROJECT_PATH@/assets/images/lilstari10-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/lilstari10-2000x1333.jpg",
                 "active": false
+              },
+              {
+                "caption": "Model No. B-20",
+                "thumb": "@PROJECT_PATH@/assets/images/lilstarb20-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/lilstarb20-2000x1333.jpg",
+                "active": false
+              },
+              {
+                "caption": "Model No. B-20 DLX",
+                "thumb": "@PROJECT_PATH@/assets/images/lilstarb20dlx-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/lilstarb20dlx-2000x1333.jpg",
+                "active": true
               }
             ],
             "showText": true,
@@ -236,6 +290,15 @@
             "Theme"
           ],
           "_name": "social-buttons2",
+          "_styles": {
+            ".mbr-header__text": {
+              "text-align": "center",
+              "color": "#000000",
+              "font-size": "30px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            }
+          },
           "_anchor": "social-buttons2-3",
           "_params": {
             "paddingTop": "2",
@@ -245,27 +308,30 @@
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#f0f0f0",
             "bgColorRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/akhirehan\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> ",
-          "_styles": {
-            ".mbr-header__text": {
-              "text-align": "center",
-              "color": "#000000",
-              "font-size": "30px",
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-            }
-          }
+          "text": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/littlestartoy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/littlestarproducts/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>         "
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "30px"
+            },
+            ".btn": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "13px"
+            }
+          },
           "_anchor": "form1-4",
           "_params": {
             "paddingTop": "2",
@@ -308,25 +374,22 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_styles": {
-            ".mbr-header__text": {
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "font-size": "30px"
-            },
-            ".btn": {
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "font-size": "13px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "color": "#cccccc"
+            },
+            "STRONG": {
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts2-5",
           "_params": {
             "paddingTop": "2",
@@ -340,29 +403,27 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
             "googleMap": {
-              "address": "khureji\n",
-              "placeId": "ChIJwUSEBKT8DDkRwc8U6NQ0gls",
+              "address": "Little Star Products\nAram Park, Geeta Colony, New Delhi, Delhi, India",
+              "placeId": "ChIJC0vB1KX8DDkRpdQR9tcxUcw",
               "state": "ok",
               "stateDetails": ""
             }
           },
           "text1": "<strong>ADDRESS</strong><br>C9 Shiva Market,<br> Opp. Khureji Petrol Pump,<br>Delhi - 110051<br><br>\n<strong>CONTACTS</strong><br>\nEmail:<br>littlestarproduct@gmail.com<br>\nPhone: <br>+91 98 99 708 737<br>",
-          "text2": "",
-          "_styles": {
-            "P": {
-              "font-size": "16px",
-              "color": "#cccccc"
-            },
-            "STRONG": {
-              "font-size": "16px"
-            }
-          }
+          "text2": ""
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#252525",
+              "font-size": "18px"
+            }
+          },
           "_anchor": "footer1-6",
           "_params": {
             "paddingTop": "2",
@@ -370,20 +431,13 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1500.jpg",
-            "bgColor": "#695c54",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#000000"
           },
-          "text": "&nbsp; &nbsp;Copyright (c) 2017 Little Star. &nbsp;Developer : &nbsp;Akhi Rehan",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "color": "#252525",
-              "font-size": "18px"
-            }
-          }
+          "text": "&nbsp; &nbsp;Copyright (c) 2017 Little Star | Developer: Akhi Rehan"
         }
       ]
     }
